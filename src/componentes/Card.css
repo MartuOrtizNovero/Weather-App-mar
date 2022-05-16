@@ -1,0 +1,60 @@
+.card {
+    background-color: #91b2d183/*  #96aeb685 */;
+    margin: 20px;
+    height: 13rem;
+    width: 30rem;
+    border-radius: 10px;
+    position: relative;
+    animation-name: card;
+    animation-duration: 1s;
+   /*  width:200px ;
+    height: 200px; */
+}
+@keyframes card {
+    0%{
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.card-body {
+display: flex;
+justify-content: space-around;
+}
+
+.temperaturas {
+    display: flex;
+    justify-content: space-around;
+}
+.boton {
+   
+  background-color: rgba(116, 23, 23, 0.897);
+  border-radius: 3px;
+  color: white;
+  height: 20px;
+  width: 20px;
+  border: none;
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+
+.card-title{
+    width: 100%;
+    text-align: center;
+    color: #050505;
+    font-size: 15px;
+    
+}
+
+.min {
+    margin: 0px;
+    padding: 15px;
+   
+}
+.max {
+    margin: 0px;
+    padding: 15px;
+}

@@ -1,0 +1,11 @@
+.currentCard{
+    background-color: #91b2d183/*  #96aeb685 */;
+    margin: 20px;
+    height: 13rem;
+    width: 90%;
+    border-radius: 10px;
+    animation-name: card;
+    animation-duration: 1s;
+    display: flex;
+    justify-content: space-around;
+}

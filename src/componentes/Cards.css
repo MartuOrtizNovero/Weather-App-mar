@@ -1,0 +1,17 @@
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation-name: desplazamiento;
+  /* animation-duration: 3s;
+  animation-iteration-count: initial; */
+}
+
+/* @keyframes desplazamiento {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-bottom: 15px;
+  }
+} */

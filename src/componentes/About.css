@@ -1,0 +1,85 @@
+ @font-face {
+  font-family: AbrilNueva;
+  src: url(../fonts/AbrilFatface-Regular.ttf);
+} 
+@font-face {
+    font-family: Nombre;
+    src: url(../fonts/nombre/RobotoCondensed-Light.ttf);
+  } 
+
+
+.martu {
+ background-color: white;
+ width: 100vw;
+ height: 100vh; 
+ font-family: Nombre;
+ font-size: 20px;
+    
+}
+
+.contenedor{
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    top: 30%;
+    left: 35%;
+}
+
+
+.about{
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: AbrilNueva;
+font-size: 41px;
+text-transform: capitalize;
+color: #529de7ec; 
+padding-bottom: 20px;
+
+}
+
+.nombre{
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: capitalize;
+color: #ccb3ab;
+padding-bottom: 10px;
+font-size: 25px;
+}
+
+.link{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+}
+
+.link2{
+  display: flex;
+  margin-left: 170px;
+  color:white;
+  font-size: 16px;
+  text-decoration: none;
+  width: 70px;
+  height: 30px; 
+  background-color: #529de7ec;
+  justify-content: center;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin-top: 70px;
+}
+
+.start{
+  
+  padding: 5px;
+  font-weight: bold;
+  color : white
+  
+  
+}
+
+
+
+
+
